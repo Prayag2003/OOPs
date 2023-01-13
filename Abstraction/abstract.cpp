@@ -1,6 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Abstraction == Implementation Hiding
+
+// End User is not provided with the internal implementations of how the BackEnd of Process works
+
+// displaying only the necessary details to the user while hiding other info
+
 class A
 {
 private:
@@ -16,6 +22,6 @@ public:
 
 int main()
 {
-    A a;
-    a.getab();
+    A obj;
+    obj.getab();
 }
